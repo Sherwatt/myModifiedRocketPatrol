@@ -1,2 +1,2 @@
 # myModifiedRocketPatrol
-My previous project, with some unique changes.
+My intended submission for the first assignment.
