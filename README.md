@@ -1,2 +1,2 @@
 # myModifiedRocketPatrol
-My intended submission for the first assignment.
+My Rocket Patrol Game with some unique changes.
