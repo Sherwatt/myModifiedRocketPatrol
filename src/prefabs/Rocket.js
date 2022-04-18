@@ -9,6 +9,13 @@ class Rocket extends Phaser.GameObjects.Sprite {
         this.sfxRocket = scene.sound.add('sfx_rocket'); //adds rocket sfx
     }
     update() {
+        //mouse controls
+        let pointer = game.input.activePointer;
+        pointer.worldX;
+        if(pointer.isDown && !this.isFiring) {
+            this.isFiring = true;
+            this.sfxRocket.play();
+        }
         //left or right movement
         if(!this.isFiring) {
             if(keyLEFT.isDown && this.x >= borderUISize + this.width) {
