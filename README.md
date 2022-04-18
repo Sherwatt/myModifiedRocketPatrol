@@ -1,2 +1,2 @@
-# myRocketPatrol
-My first attempt at coding a game in JavaScript
+# myModifiedRocketPatrol
+My intended submission for the first assignment.
