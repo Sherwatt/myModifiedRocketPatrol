@@ -28,7 +28,7 @@ class Rocket extends Phaser.GameObjects.Sprite {
             this.sfxRocket.play(); //play sfx
         }
         if(!this.isFiring) {
-            if(pointer.isDown) {
+            if(this.input.activePointer.isDown) {
                 this.isFiring = true;
             }
         }
